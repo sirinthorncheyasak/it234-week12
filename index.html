@@ -201,7 +201,8 @@
     var bubbleColors = ["#E3E7FD", "#FDEBD8", "#DDF4EA", "#FCE4EC", "#EFE5FB", "#E2F2FB"];
 
     // 1) ไปขอไฟล์ data.json มา  2) แปลงเป็น JSON  3) แสดงผล
-    fetch("data.json")
+    // ใส่เวลาต่อท้าย เพื่อให้ได้ data.json เวอร์ชันล่าสุดเสมอ ไม่ใช่ตัวเก่าที่เบราว์เซอร์จำไว้
+    fetch("data.json?v=" + Date.now(), { cache: "no-store" })
       .then(function (response) {
         if (!response.ok) throw { kind: "notfound" };
         return response.text();
