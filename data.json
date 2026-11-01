@@ -27,6 +27,14 @@
       "emoji": "🥐",
       "available": false,
       "tags": ["เบเกอรี่"]
+    },
+    {
+      "id": 4,
+      "name": "xxxxxxxx",
+      "price": 60,
+      "emoji": "🥐",
+      "available": false,
+      "tags": ["เบเกอรี่"]
     }
   ]
 }
