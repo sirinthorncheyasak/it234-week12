@@ -31,9 +31,9 @@
     {
       "id": 4,
       "name": "xxxxxxxx",
-      "price": 60,
+      "price": 50,
       "emoji": "🥐",
-      "available": false,
+      "available": true,
       "tags": ["เบเกอรี่"]
     }
   ]
