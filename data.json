@@ -1,7 +1,7 @@
 {
-  "shopName": "ร้านกาแฟของฉัน",
-  "owner": "ชื่อนักศึกษา",
-  "studentId": "6XXXXXXXXX",
+  "shopName": "My Dream House Coffee Shop",
+  "owner": "Sirinthorn Cheyasak",
+  "studentId": "16807002200",
   "ownerPhone": "081-234-5678",
   "products": [
     {
@@ -16,7 +16,7 @@
       "id": 2,
       "name": "ชาไทย",
       "price": 45,
-      "emoji": "🧋",
+      "emoji": "🧉",
       "available": true,
       "tags": ["ชา", "เย็น", "ขายดี"]
     },
@@ -30,11 +30,11 @@
     },
     {
       "id": 4,
-      "name": "xxxxxxxx",
+      "name": "ชาเขียวร้อน",
       "price": 50,
-      "emoji": "🥐",
+      "emoji": "🍵",
       "available": true,
-      "tags": ["เบเกอรี่"]
+      "tags": ["ชา", "ร้อน", "มาใหม่"]
     }
   ]
 }
